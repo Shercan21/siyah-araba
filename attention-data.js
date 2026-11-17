@@ -17,12 +17,12 @@ for(const id of exploreHubs.attention.parts)exploreBanks[id]=[];
  const q=addExplore('odd',stage,['Hangisi diğerlerinden farklı?','Which one is different?'],null,[eo('different',words[different]?.[0]||'Farklı resim',words[different]?.[1]||'Different picture',different),...Array.from({length:size-1},(_,i)=>eo('same-'+i,words[common]?.[0]||'Diğer resim',words[common]?.[1]||'Other picture',common))]);q.allOptions=true;
 });
 [['apple',['banana','pear','orange']],['car',['bus','truck','plane']],['cat',['dog','bird','rabbit']],['ball',['book','glass','plate']],['grapes',['cherries','strawberry','banana']],['tshirt',['coat','socks','hat']],['tree',['flower','cloud','house']],['hand',['foot','eye','ear']],['triangle',['square','circle','star']],['pencil',['comb','spoon','key']],['goat',['cow','sheep','horse']],['train',['tram','metro','bus']]].forEach(([id,others],index)=>addExplore('same',Math.floor(index/4)+1,['Örnek resmin aynısı hangisi?','Which picture is the same as the example?'],id,[id,...others].map(wordOption)));
-const crowdPositions=Array.from({length:16},(_,index)=>({x:4+(index%4)*24+(index%3)*1.2,y:3+Math.floor(index/4)*24+((index+1)%3)*1.3}));
+const crowdPositions=Array.from({length:16},(_,index)=>({x:4+(index%4)*24+(index%3)*1.2,y:30+Math.floor(index/4)*16+((index+1)%3)*1.3}));
 [['cat',2],['car',3],['apple',1],['bird',4],['dog',4],['ball',5],['cat',3],['car',6],['bird',6],['apple',7],['dog',8],['ball',5]].forEach(([id,n],index)=>{
  const stage=Math.floor(index/4)+1,otherIds=['cat','car','apple','bird','dog','ball'].filter(key=>key!==id),extra=stage===1?2:stage===2?4:6;
  const objects=[...Array(n).fill(id),...Array.from({length:extra},(_,i)=>otherIds[i%otherIds.length])];
  // Stable arrangement across retries; the scene never changes after an answer.
- const mixed=objects.map((value,i)=>({value,key:(i*7+index*3)%19})).sort((a,b)=>a.key-b.key).map((entry,i)=>({id:entry.value,...crowdPositions[i]}));
+ const mixed=objects.map((value,i)=>({value,key:(i*7+index*3)%19})).sort((a,b)=>a.key-b.key).map((entry,i)=>({id:entry.value,...crowdPositions[[0,10,3,13,5,8,15,2,12,7,9,1,6,14,4,11][i]]}));
  const numbers=[n,...[n+1,n-1,n+2,n-2].filter(x=>x>=0&&x<=10)].slice(0,4);
  addExplore('sceneCount',stage,['Resimde kaç '+words[id][0].toLocaleLowerCase('tr')+' var?','How many '+({cat:'cats',car:'cars',apple:'apples',bird:'birds',dog:'dogs',ball:'balls'})[id]+' are in the picture?'],{type:'crowd',objects:mixed},numbers.map(value=>eo('count-'+value,...countNames[value],{type:'number',number:value})));
 });

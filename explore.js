@@ -38,7 +38,7 @@ function newExploreQuestion(){
   const item=exploreCurrent(),count=item.allOptions?item.answers.length:explorePart==='opposites'?2:Math.min(4,exploreLevel()+1);
   exploreOptions=shuffle(exploreAnswerPool(item).slice(0,count));renderExploreTask();speakExploreQuestion();
 }
-function exploreQuestionText(){const item=exploreCurrent();return namePrefix()+(exploreMode==='say'&&item.activity?t('çocuk ne yapıyor?','what is the child doing?'):t(...item.question))}
+function exploreQuestionText(){const item=exploreCurrent();const prefix=namePrefix(),question=exploreMode==='say'&&item.activity?t('çocuk ne yapıyor?','what is the child doing?'):t(...item.question);return prefix+(prefix?question[0].toLocaleLowerCase(tr()?'tr':'en')+question.slice(1):question)}
 function exploreModelText(){return t(...exploreAnswerPool(exploreCurrent())[0].text)}
 function speakExploreQuestion(){const item=exploreCurrent();speak((item.context?t(...item.context)+' ':'')+exploreQuestionText()+(exploreMode==='learn'?' '+exploreModelText():''))}
 function renderExploreTask(){
