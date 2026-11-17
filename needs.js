@@ -38,9 +38,9 @@ function sayNeed(id){if(!needsCards[id])return;lastNeed=id;$('#needsMessage').te
 function sentenceParts(item,level=sentenceLevel()) {
   const i=tr()?0:1;
   if(level===1)return [item.noun[i]];
-  if(level===2)return tr()?[item.request[0],'istiyorum.']:['I want',item.request[1]+'.'];
+  if(level===2)return tr()?[item.request[0][0].toLocaleUpperCase('tr')+item.request[0].slice(1),'istiyorum.']:['I want',item.request[1]+'.'];
   if(level===3)return tr()?['Ben',item.request[0],'istiyorum.']:['I', 'want',item.request[1]+'.'];
-  if(level===4)return tr()?[item.detail[0],'istiyorum.']:['I want',item.detail[1]+'.'];
+  if(level===4)return tr()?[item.detail[0][0].toLocaleUpperCase('tr')+item.detail[0].slice(1),'istiyorum.']:['I want',item.detail[1]+'.'];
   if(item.id==='needHelp')return tr()?['Anne,','bana','yardım eder misin?']:['Mom,','can you','help me?'];
   if(item.id==='needRest')return tr()?['Anne,','biraz','mola verebilir miyim?']:['Mom,','can I','have a break?'];
   return tr()?['Anne,','bana',item.polite[0],'verir misin?']:['Mom,','can you give me',item.polite[1]+'?'];

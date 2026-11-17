@@ -66,3 +66,6 @@ Vücut, eşya, giysi, doğa, aile/insanlar, komutlar, renkler, şekiller ve say�
 Kelime → cümle: Ebeveyn alanında ayrı 5 seviye seçilir: tek kelime, iki kelime, kısa cümle, ayrıntı, günlük rica. Kartlara sırayla dokunulur; sesli tekrar veya mikrofon gerekmez. Bu etkinlikte doğru/yanlış ve puan yoktur. Örneği dinle ve Cümlemi söyle düğmeleri bulunur.
 
 Telefonun geri tuşu bir önceki ekrana döner: Sebzeler → Öğren → geri: Sebzeler → geri: Ana sayfa. Resim değiştirmek veya yeni soruya geçmek fazladan geri adımı eklemez.
+
+### Ortak resim yükleme kuralı
+Resimler ve sesler hazırsa önce cihazdaki kopya açılır; her dokunuşta internet yanıtı beklenmez. İlk kez açılan bir ekranda bütün gerekli resimler yüklenip çözülene kadar “Resimler hazırlanıyor” görünür. Soru, resimlerden önce seslendirilmez. Yükleme başarısızsa boş kart yerine Tekrar dene düğmesi görünür. Çizimler telefon ekranına uygun 1024 piksel atlaslara dönüştürülerek toplam boyutu yaklaşık yüzde 53 azaltılmıştır.
