@@ -8,6 +8,8 @@ GitHub projesi: https://github.com/Shercan21/siyah-araba
 
 ## Seviyeler ve öğretme
 
+İlk girişte "Kiminle oynayalım?" alanına çocuğun adını yazın. Ana menüde "İsmi değiştir" ile başka isim seçebilirsiniz. Oyun soruları, masallar ve diyaloglar seçtiğiniz isimle seslenir. Her ismin seviyeleri ve cevap kayıtları bu cihazda ayrı tutulur.
+
 Ana menüden bir konu seçin. "Öğren" ekranında küçük resimlere dokununca seçilen nesne büyük gösterilir ve adı söylenir. "Bul" ekranında sesli soruya cevap verilir.
 
 Ebeveyn → 7 + 2 sorusuna 9 → Seviyeleri seç / Kayıtları gör. Her konunun seviyesini ayrı seçebilirsiniz. Seviye 1 temel nesnelerle ve 2 seçenekle, seviye 2 eski ve yeni nesnelerle 3 seçenekle, seviye 3 daha fazla nesneyle 4 seçenekle çalışır. İsterseniz seçenek sayısını bütün seviyelerde sabit tutabilirsiniz. Oyun kendi kendine seviye artırmaz.
