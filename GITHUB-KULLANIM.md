@@ -93,3 +93,8 @@ Labirent: 3×3, 4×4 ve 5×5 hücreli geniş yollar. Parmakla sürükleme, komş
 İlişkili olanı bul: Diş fırçası–macun, kalem–kalemtıraş, kilit–anahtar, ayakkabı–çorap, tabak–kaşık, yağmur–şemsiye, yatak–yastık, çiçek–sulama kabı. Yeni günlük eşyalar ileri seviyelerde normal kategori oyunlarına da eklendi.
 
 İncelenen resmî etkileşim örnekleri: https://tohumotizmportali.org/apps/oyunlar/dinleanla/index.html ve https://tohumotizmportali.org/apps/oyunlar/eylemler/index.html . Resmî Dinle Anla sürümünde Kim, Ne, Neden/Nasıl, Nerede ve Ne Oldu grupları bulunur. Bizim Ne kadar grubu ayrıca özgün olarak hazırlandı. Soru metinleri, kod ve görseller bu uygulamaya özeldir; Tohum uygulamasının resimleri veya soru setleri kopyalanmadı.
+
+## Sade akış ve isim kullanımı
+Sorularla keşfet, Zıt kavramlar, Eylemler ve Dikkat alt başlıkları doğrudan Bul açar. Öğren / Birlikte söyle araması yoktur. Çizim ve labirent de doğrudan açılır. Yardım için İpucu ve Tekrar dinle düğmeleri vardır.
+
+Sorularda isimle seslenme artık varsayılan olarak kapalıdır. Önceki açık tercih bu güncellemede bir kez kapatılır; daha sonra ebeveyn isterse tekrar açabilir ve bu tercih korunur. Tebriklerde yalnızca Aferin / Well done denir. Ana sayfadaki isim ve Benim adım... gibi kimlik cümleleri korunur.
