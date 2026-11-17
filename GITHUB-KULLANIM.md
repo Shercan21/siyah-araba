@@ -72,3 +72,6 @@ Resimler ve sesler hazırsa önce cihazdaki kopya açılır; her dokunuşta inte
 
 ## Kapalı kartlar
 Bir kategori seçip Kapalı kartlar oyununa girin. İki kart açılır; aynı resimler eşleşince kaybolur, farklı resimler yaklaşık 1,5 saniye sonra kapanır. Süre sınırı yoktur. Ebeveyn alanında Kapalı kartlar başlığından 8 kart / 4 çift veya 10 kart / 5 çift seçilir. Yalnızca açık seviyedeki farklı nesneler kullanılır; sayı yetersizse kart sayısı azalır. Yeni seviyeler kendiliğinden açılmaz. Kayıtları diğer oyunlardan ayrı tutulur.
+
+## Sepete koy / çıkar
+Meyveler kategorisindeki oyun menüsünden açılır. İstenen meyveye dokunun, sepete girsin. Sepetteki bir meyveye dokununca dışarı çıkar ve büyük resimle “Eyüp, bu ne?” sorulur. İsim sorudan hemen sonra otomatik söylenmez; süre sınırı yoktur. Adını dinle düğmesi örnek cevabı okur. Devam et meyveyi dışarıda bırakır; Yeniden sepete koy düğmesi geri yerleştirir. Başlangıçta 2, ileri seviyelerde 3–4 meyve kullanılır. Konuşma kaydı veya doğru/yanlış puanı yoktur.
