@@ -36,6 +36,8 @@ Kayıtlar ilk seçim, tekrar ve ebeveynin işaretlediği yardımlı cevapları g
 
 ## Dosya güncelleme
 
+Telefonda eski içerik görünüyorsa Ebeveyn alanındaki Güncel içerik kartını kontrol edin. Hayvanlar 16, araçlar 11, meyve ve sebzeler 7 seviye görünmelidir. Güncellemeyi kontrol et düğmesi isim ve kayıtları silmeden son sürümü yeniden açar. İçerik sürümü bu kartta yazılıdır.
+
 GitHub'da ana daldaki (main) dosyalardan birini düzenleyip "Commit changes" ile kaydedin. GitHub Pages otomatik yayımlar. İlerlemeyi Actions bölümünden izleyebilirsiniz.
 
 - app.js: Sorular, seslendirme cümleleri, masallar.

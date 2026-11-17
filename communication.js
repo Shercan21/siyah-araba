@@ -4,7 +4,7 @@ groups.push({id:'actions',names:['Komutlar','Actions'],sub:['Aç, kapat, al, ver
 curriculum.cars[0].push('ambulance','firetruck','police');groups.find(g=>g.id==='cars').items=curriculum.cars.flat();
 pictureAtlases.vehicles.push('train','ambulance','firetruck');pictureAtlases.actions=['open','close','take','give','come','stop','sit','stand','put','show','helloScene','howScene','nameScene','playScene','byeScene','thanksScene'];
 const communicationArt=art;
-art=function(id){return id==='police'?'<img class="standalone-art" src="assets/police.jpg" alt="">':communicationArt(id)};
+art=function(id){return id==='police'?'<img class="standalone-art" src="police-512.jpg" alt="" width="512" height="512" decoding="async" fetchpriority="high">':communicationArt(id)};
 const baseTeachingSentence=teachingSentence;
 teachingSentence=function(id){if(category.id==='actions')return namePrefix()+t(({open:'kapıyı aç.',close:'kapıyı kapat.',take:'topu al.',give:'topu ver.',come:'buraya gel.',stop:'dur.',sit:'otur.',stand:'ayağa kalk.',put:'kutunun içine koy.',show:'göster.'})[id],({open:'open the door.',close:'close the door.',take:'take the ball.',give:'give the ball.',come:'come here.',stop:'stop.',sit:'sit down.',stand:'stand up.',put:'put it in the box.',show:'show me.'})[id]);if(category.id==='family')return namePrefix()+t(`bu ${label(id).toLocaleLowerCase('tr')}.`,`this is ${label(id).toLowerCase()}.`);if(id==='shoes'||id==='socks'||id==='trousers'||id==='gloves')return namePrefix()+t(`bu ${label(id).toLocaleLowerCase('tr')}.`,`these are ${label(id).toLowerCase()}.`);return baseTeachingSentence(id)};
 const communicationPrompt=prompt;
