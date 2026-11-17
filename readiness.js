@@ -56,6 +56,7 @@ home=withPictures(home);lessonMenu=withPictures(lessonMenu);showLesson=withPictu
 renderQuestion=withPictures(renderQuestion);renderPuzzle=withPictures(renderPuzzle);renderPairs=withPictures(renderPairs);renderBasket=withPictures(renderBasket);complete=withPictures(complete);
 storyHome=withPictures(storyHome);readStory=withPictures(readStory);talkHome=withPictures(talkHome);
 dialogue=withPictures(dialogue);profileEntry=withPictures(profileEntry);needsHome=withPictures(needsHome);
-sentenceHome=withPictures(sentenceHome);
+sentenceHome=withPictures(sentenceHome);exploreHome=withPictures(exploreHome);exploreMenu=withPictures(exploreMenu);renderExploreTask=withPictures(renderExploreTask);completeExplore=withPictures(completeExplore);drawingHome=withPictures(drawingHome);mazeHome=withPictures(mazeHome);
+document.querySelector('#bootLoading')?.remove?.();document.querySelector('header')?.removeAttribute?.('inert');
 // Rebind the initial screen's click handlers to the shared renderer as well.
 if(screen==='home')home();else if(screen==='profile')profileEntry();else preparePictures();

@@ -16,6 +16,7 @@
     if (activity) route.game = {round, target, options: [...options], locked, lastTarget, sessionSaved,
       questionWrong, questionHelped, miniKind, memoryPhase, puzzleOrder: [...puzzleOrder],
       puzzleRows, puzzleCols, puzzleSelected, puzzleSolved, puzzleMoves};
+    if(screen.startsWith('explore-')){route.explore={hub:exploreHub,part:explorePart,mode:exploreMode,queue:[...exploreQueue],round:exploreRound,options:[...exploreOptions],locked:exploreLocked,wrong:exploreWrong,helped:exploreHelped,showModel:exploreShowModel,saved:exploreSaved,interactive:captureAttentionInteractive()};route.key=(screen==='explore-home'?'explore-home:'+exploreHub:screen==='explore-menu'?'explore-menu:'+explorePart:'explore-task:'+explorePart+':'+exploreMode)+(route.modal?':modal':'')}
     return route;
   }
   const state = () => ({[key]: session, position});
@@ -23,7 +24,8 @@
     cancelSpeech();
     if (dialog.open) dialog.close();
     if (route.category) category = groups.find(group => group.id === route.category);
-    if (route.game) {
+    if(route.explore){const data=route.explore;exploreHub=data.hub;explorePart=data.part;exploreMode=data.mode;exploreQueue=[...data.queue];exploreRound=data.round;exploreOptions=[...data.options];exploreLocked=data.locked;exploreWrong=data.wrong;exploreHelped=data.helped;exploreShowModel=data.showModel;exploreSaved=data.saved;restoreAttentionInteractive(data.interactive);if(route.screen==='explore-home')exploreHome(exploreHub);else if(route.screen==='explore-menu')exploreMenu(explorePart);else if(route.screen==='explore-done')completeExplore();else if(route.screen==='explore-drawing')drawingHome();else if(route.screen==='explore-maze')mazeHome();else renderExploreTask();}
+    else if (route.game) {
       ({round, target, options, locked, lastTarget, sessionSaved, questionWrong, questionHelped,
         miniKind, memoryPhase, puzzleOrder, puzzleRows, puzzleCols, puzzleSelected, puzzleSolved, puzzleMoves} = route.game);
       // Keep the saved snapshot independent of mutable game arrays.

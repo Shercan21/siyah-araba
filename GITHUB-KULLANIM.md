@@ -75,3 +75,21 @@ Bir kategori seçip Kapalı kartlar oyununa girin. İki kart açılır; aynı re
 
 ## Sepete koy / çıkar
 Meyveler kategorisindeki oyun menüsünden açılır. İstenen meyveye dokunun, sepete girsin. Sepetteki bir meyveye dokununca dışarı çıkar ve büyük resimle “Eyüp, bu ne?” sorulur. İsim sorudan hemen sonra otomatik söylenmez; süre sınırı yoktur. Adını dinle düğmesi örnek cevabı okur. Devam et meyveyi dışarıda bırakır; Yeniden sepete koy düğmesi geri yerleştirir. Başlangıçta 2, ileri seviyelerde 3–4 meyve kullanılır. Konuşma kaydı veya doğru/yanlış puanı yoktur.
+
+## Sorular, zıt kavramlar, eylemler ve dikkat
+Ana sayfaya dört ayrı alan eklendi. Her başlığın seviyesi Ebeveyn → Yeni çalışmaların seviyeleri düğmesinden ayrı seçilir. Seviyeler otomatik yükselmez. Öğren ve Birlikte söyle çalışmalarında mikrofon, doğru/yanlış puanı ve ses kaydı yoktur. Bul kayıtları yalnızca cihazdaki görsel seçimleri gösterir; konuşma veya gerçek yaşam becerisi değerlendirmesi değildir.
+
+- Sorularla keşfet: Ne, Nerede, Nasıl, Niçin, Ne kadar, Kim. Toplam 72 özgün soru; temel seviyede 2, ileride 3–4 seçenek. Niçin sorularında cevap için gereken durum önce anlatılır. Ne kadar bölümünde gerçek sayılara göre üretilmiş nesne sayma ve boş/az/yarım/dolu bardak görselleri kullanılır.
+- Zıt kavramlar: 16 çift. İlk dört çift uzun–kısa, büyük–küçük, dolu–boş, açık–kapalıdır. Sonra temiz–kirli, kuru–ıslak, sıcak–soğuk, mutlu–üzgün; ardından beden/boy/yaş/hız; en son ağır–hafif, dar–geniş, yukarıda–aşağıda, düzenli–dağınık eklenir.
+- Eylemler: Kişisel bakım, Fiziksel aktiviteler ve Serbest zaman; toplam 29 resimli eylem. Bunlar resimden tanıma ve birlikte adlandırma çalışmalarıdır.
+- Dikkat: Son istenen çalışmaların tamamı bu tek ana menü altındadır: Farklı olanı bul, Aynısını bul, Noktalar ve yanına çiz, Büyük resimde say, Gölge eşleme, Şekil kodlama, Yarım–bütün, Kuşu yuvasına götür, İlişkili olanı bul.
+
+Noktalar: Soldaki noktalara sırayla dokunun, sağa parmak veya fareyle çizin. Son çizgiyi geri al ve temizle düğmeleri vardır; çizim puanlanmaz. Başlangıçta çizgi ve köşe, ardından üçgen/kare, son seviyede ev/zikzak açılır.
+
+Labirent: 3×3, 4×4 ve 5×5 hücreli geniş yollar. Parmakla sürükleme, komşu hücreye dokunma, büyük yön düğmeleri ve klavye okları kullanılabilir. Duvarlardan geçilemez. Her labirentin çözümü vardır ve süre sınırı yoktur.
+
+Şekil kodlama: Kod anahtarı ve üç çözülmüş örnek gösterilir; tek doğru cevaplı eksik kod seçilir. Büyük resimde say çalışmasında nesnelerin adetleri koddan kesin üretilir. Yarım–bütün çalışması resmin yarısı ile bütünü/eksik parçası arasındaki ilişkiyi kullanır. Gölge çalışmasında aynı vektör çizimin renkli ve siluet hali eşleştirilir.
+
+İlişkili olanı bul: Diş fırçası–macun, kalem–kalemtıraş, kilit–anahtar, ayakkabı–çorap, tabak–kaşık, yağmur–şemsiye, yatak–yastık, çiçek–sulama kabı. Yeni günlük eşyalar ileri seviyelerde normal kategori oyunlarına da eklendi.
+
+İncelenen resmî etkileşim örnekleri: https://tohumotizmportali.org/apps/oyunlar/dinleanla/index.html ve https://tohumotizmportali.org/apps/oyunlar/eylemler/index.html . Resmî Dinle Anla sürümünde Kim, Ne, Neden/Nasıl, Nerede ve Ne Oldu grupları bulunur. Bizim Ne kadar grubu ayrıca özgün olarak hazırlandı. Soru metinleri, kod ve görseller bu uygulamaya özeldir; Tohum uygulamasının resimleri veya soru setleri kopyalanmadı.
