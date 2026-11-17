@@ -12,7 +12,11 @@ GitHub projesi: https://github.com/Shercan21/siyah-araba
 
 Ana menüden bir konu seçin. "Öğren" ekranında küçük resimlere dokununca seçilen nesne büyük gösterilir ve adı söylenir. "Bul" ekranında sesli soruya cevap verilir.
 
-Ebeveyn → 7 + 2 sorusuna 9 → Seviyeleri seç / Kayıtları gör. Her konunun seviyesini ayrı seçebilirsiniz. Seviye 1 temel nesnelerle ve 2 seçenekle, seviye 2 eski ve yeni nesnelerle 3 seçenekle, seviye 3 daha fazla nesneyle 4 seçenekle çalışır. İsterseniz seçenek sayısını bütün seviyelerde sabit tutabilirsiniz. Oyun kendi kendine seviye artırmaz.
+Ebeveyn → 7 + 2 sorusuna 9 → Seviyeleri seç / Kayıtları gör. Her konunun seviyesini ayrı seçebilirsiniz. Seviye 1 temel nesnelerle ve 2 seçenekle, seviye 2 eski ve yeni nesnelerle 3 seçenekle, seviye 3 ve sonraki seviyeler 4 seçenekle çalışır. İsterseniz seçenek sayısını bütün seviyelerde sabit tutabilirsiniz. Oyun kendi kendine seviye artırmaz.
+
+Genişletilmiş içeriklerde hayvanlar 16, araçlar 11, meyve ve sebzeler 7 seviyedir. Her yeni seviye en fazla dört nesne ekler; önceki nesneler korunur. Seviye menüsünde o seviyeye eklenen isimler gösterilir. Öğren ekranı seçilen seviyenin yeni nesnesiyle açılır; kalabalık konularda resim tablosu 12 resimlik sayfalara bölünür.
+
+Meyve kartlarında bütün meyve ve yanında kesilmiş parçası vardır. Sayma oyununda ise karışıklık olmaması için her birim tek bir bütün elma gösterir.
 
 Kayıtlar ilk seçim, tekrar ve ebeveynin işaretlediği yardımlı cevapları gösterir. "Devam" düğmesine basınca cevap kaydedilir. Öğrenme ekranındaki dokunuşlar test kaydına eklenmez. Bu kayıtlar gerçek yaşamda tanımayı veya konuşma gelişimini ölçmez. Kayıtlar ve ayarlar yalnızca o tarayıcıda tutulur.
 
