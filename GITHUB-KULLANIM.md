@@ -20,9 +20,9 @@ Meyve kartlarında bütün meyve ve yanında kesilmiş parçası vardır. Sayma 
 
 ## Ek oyunlar
 
-Bir konu seçince Öğren ve Bul seçeneklerinin altında Eşini bul, Hangisi kayboldu? ve Resim yapbozu görünür. Bu oyunlar da seçtiğiniz konu ve seviyenin nesnelerini kullanır.
+Bir konu seçince Öğren ve Bul seçeneklerinin altında Aynısını bul, Hangisi kayboldu? ve Resim yapbozu görünür. Bu oyunlar da seçtiğiniz konu ve seviyenin nesnelerini kullanır.
 
-- Eşini bul: Büyük örnek resmin aynısını seçeneklerden seçin.
+- Aynısını bul: Büyük örnek resmin aynısını seçeneklerden seçin.
 - Hangisi kayboldu?: Resimlere istediğiniz kadar bakın; Hazırım düğmesine siz basınca bir resim saklanır. Eksik resmi seçeneklerden bulun. Süre sınırı yoktur.
 - Resim yapbozu: Önce bir parçaya, sonra diğerine dokunarak yer değiştirin. Seviye 1'de 2 parça, seviye 2'de 3 parça, sonraki seviyelerde 4 parça bulunur. Örnek resim gösterilir; sürükleme veya süre baskısı yoktur.
 

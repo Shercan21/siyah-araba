@@ -1,5 +1,5 @@
 let miniKind=null,memoryPhase='preview',puzzleOrder=[],puzzleRows=2,puzzleCols=1,puzzleSelected=null,puzzleSolved=false,puzzleMoves=0;
-const miniNames={match:['Eşini bul','Find the match'],memory:['Hangisi kayboldu?','What is missing?'],puzzle:['Resim yapbozu','Picture puzzle']};
+const miniNames={match:['Aynısını bul','Find the match'],memory:['Hangisi kayboldu?','What is missing?'],puzzle:['Resim yapbozu','Picture puzzle']};
 function miniTitle(kind=miniKind){return miniNames[kind][tr()?0:1]}
 function miniStats(kind=miniKind){const state=topicState();state.games=state.games||{};state.games[kind]=state.games[kind]||{first:0,retry:0,helped:0,rounds:0,sessions:0,solved:0};return state.games[kind]}
 const startBeforeMini=start;
@@ -10,7 +10,7 @@ home=function(){miniKind=null;homeBeforeMini()};
 const menuBeforeMini=lessonMenu;
 lessonMenu=function(id){miniKind=null;menuBeforeMini(id);$('.mode-cards').insertAdjacentHTML('afterend',`<section class="more-games"><h2>${t('Biraz da oyun oynayalım','Let’s play some more')}</h2><div class="mini-menu">${['match','memory','puzzle'].map(kind=>`<button class="category" data-mini="${kind}" style="--tint:${kind==='match'?'#efe8d8':kind==='memory'?'#e6eddf':'#e6eaf0'}"><div class="art">${art(category.cover)}</div><h3>${miniTitle(kind)}</h3><p>${kind==='match'?t('Aynı resmi seç.','Choose the same picture.'):kind==='memory'?t('Resimlere bak, hazır olunca devam et.','Look at the pictures, then continue when ready.'):t('Parçalara dokun, yerlerini değiştir.','Tap pieces to swap them.')}</p></button>`).join('')}</div></section>`);document.querySelectorAll('[data-mini]').forEach(button=>button.onclick=()=>startMini(id,button.dataset.mini))};
 const promptBeforeMini=prompt;
-prompt=function(){if(miniKind==='match')return namePrefix()+t('bunun eşini bul.','find the matching picture.');if(miniKind==='memory')return namePrefix()+(memoryPhase==='preview'?t('resimlere bakalım.','let’s look at the pictures.'):t('hangi resim kayboldu?','which picture is missing?'));return promptBeforeMini()};
+prompt=function(){if(miniKind==='match')return namePrefix()+t('bunun aynısını bul.','find the matching picture.');if(miniKind==='memory')return namePrefix()+(memoryPhase==='preview'?t('resimlere bakalım.','let’s look at the pictures.'):t('hangi resim kayboldu?','which picture is missing?'));return promptBeforeMini()};
 const questionBeforeMini=nextQuestion;
 nextQuestion=function(){if(miniKind==='memory')memoryPhase='preview';questionBeforeMini()};
 const renderBeforeMini=renderQuestion;
