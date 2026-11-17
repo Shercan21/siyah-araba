@@ -1,5 +1,5 @@
-const CACHE='siyah-araba-v2';
-const FILES=['./','./index.html','./style.css','./app.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'];
+const CACHE='siyah-araba-v4';
+const FILES=["./","./app.js","./assets/actions.jpg","./assets/animals.jpg","./assets/body.jpg","./assets/everyday.jpg","./assets/family.jpg","./assets/foods.jpg","./assets/nature.jpg","./assets/police.jpg","./assets/vehicles.jpg","./communication.js","./credits.html","./effects.js","./extras.js","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./learning.js","./lesson.js","./manifest.webmanifest","./sounds/bird.ogg","./sounds/bus.ogg","./sounds/car.ogg","./sounds/cat.ogg","./sounds/dog.ogg","./sounds/goose.ogg","./sounds/helicopter.ogg","./sounds/plane.ogg","./style.css"];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)));self.skipWaiting()});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>(k.startsWith('minik-kesifler-')||k.startsWith('siyah-araba-'))&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 // Prefer published updates online; keep a complete offline copy on this phone.

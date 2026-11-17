@@ -6,6 +6,20 @@ GitHub projesi: https://github.com/Shercan21/siyah-araba
 
 ## Güncelleme
 
+## Seviyeler ve öğretme
+
+Ana menüden bir konu seçin. "Öğren" ekranında küçük resimlere dokununca seçilen nesne büyük gösterilir ve adı söylenir. "Bul" ekranında sesli soruya cevap verilir.
+
+Ebeveyn → 7 + 2 sorusuna 9 → Seviyeleri seç / Kayıtları gör. Her konunun seviyesini ayrı seçebilirsiniz. Seviye 1 temel nesnelerle ve 2 seçenekle, seviye 2 eski ve yeni nesnelerle 3 seçenekle, seviye 3 daha fazla nesneyle 4 seçenekle çalışır. İsterseniz seçenek sayısını bütün seviyelerde sabit tutabilirsiniz. Oyun kendi kendine seviye artırmaz.
+
+Kayıtlar ilk seçim, tekrar ve ebeveynin işaretlediği yardımlı cevapları gösterir. "Devam" düğmesine basınca cevap kaydedilir. Öğrenme ekranındaki dokunuşlar test kaydına eklenmez. Bu kayıtlar gerçek yaşamda tanımayı veya konuşma gelişimini ölçmez. Kayıtlar ve ayarlar yalnızca o tarayıcıda tutulur.
+
+"Konuşalım" ekranındaki konuşmalar sesli örneklerdir. Konuşma zorunlu değildir, mikrofon kullanılmaz. Aile resimleri temsili çizimlerdir.
+
+"Sesini dinle" düğmesi bazı nesnelerde gerçek kayıt, bazılarında sesli taklit veya temsili efekt çalar. Düğmeye basılmadan efekt başlamaz. Ebeveyn alanında efekt düzeyi ayarlanabilir veya düğme kapatılabilir.
+
+## Dosya güncelleme
+
 GitHub'da ana daldaki (main) dosyalardan birini düzenleyip "Commit changes" ile kaydedin. GitHub Pages otomatik yayımlar. İlerlemeyi Actions bölümünden izleyebilirsiniz.
 
 - app.js: Sorular, seslendirme cümleleri, masallar.
