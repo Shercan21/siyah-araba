@@ -69,3 +69,6 @@ Telefonun geri tuşu bir önceki ekrana döner: Sebzeler → Öğren → geri: S
 
 ### Ortak resim yükleme kuralı
 Resimler ve sesler hazırsa önce cihazdaki kopya açılır; her dokunuşta internet yanıtı beklenmez. İlk kez açılan bir ekranda bütün gerekli resimler yüklenip çözülene kadar “Resimler hazırlanıyor” görünür. Soru, resimlerden önce seslendirilmez. Yükleme başarısızsa boş kart yerine Tekrar dene düğmesi görünür. Çizimler telefon ekranına uygun 1024 piksel atlaslara dönüştürülerek toplam boyutu yaklaşık yüzde 53 azaltılmıştır.
+
+## Kapalı kartlar
+Bir kategori seçip Kapalı kartlar oyununa girin. İki kart açılır; aynı resimler eşleşince kaybolur, farklı resimler yaklaşık 1,5 saniye sonra kapanır. Süre sınırı yoktur. Ebeveyn alanında Kapalı kartlar başlığından 8 kart / 4 çift veya 10 kart / 5 çift seçilir. Yalnızca açık seviyedeki farklı nesneler kullanılır; sayı yetersizse kart sayısı azalır. Yeni seviyeler kendiliğinden açılmaz. Kayıtları diğer oyunlardan ayrı tutulur.

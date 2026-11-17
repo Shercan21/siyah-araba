@@ -53,7 +53,7 @@ function withPictures(render){return function(...args){
   const result=render.apply(this,args);preparePictures();return result;
 }}
 home=withPictures(home);lessonMenu=withPictures(lessonMenu);showLesson=withPictures(showLesson);
-renderQuestion=withPictures(renderQuestion);renderPuzzle=withPictures(renderPuzzle);complete=withPictures(complete);
+renderQuestion=withPictures(renderQuestion);renderPuzzle=withPictures(renderPuzzle);renderPairs=withPictures(renderPairs);complete=withPictures(complete);
 storyHome=withPictures(storyHome);readStory=withPictures(readStory);talkHome=withPictures(talkHome);
 dialogue=withPictures(dialogue);profileEntry=withPictures(profileEntry);needsHome=withPictures(needsHome);
 sentenceHome=withPictures(sentenceHome);

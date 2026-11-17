@@ -6,10 +6,10 @@
   const entries = [];
   let position = 0, moving = false;
   function capture() {
-    const activity = ['game', 'puzzle', 'complete', 'mini-complete'].includes(screen);
+    const activity = ['game', 'puzzle', 'pairs', 'complete', 'mini-complete'].includes(screen);
     const route = {screen, category: category?.id, item: typeof taughtItem === 'undefined' ? null : taughtItem,
       storyIndex, storyPage, dialogueIndex, modal: dialog.open,
-      needsTab, sentenceItem, sentencePartsDone};
+      needsTab, sentenceItem, sentencePartsDone, pairs: screen==='pairs'?{deck:[...pairDeck],flipped:[...pairFlipped],matched:[...pairMatched],saved:pairSaved}:null};
     route.key = (activity ? 'activity:' + category.id + ':' + (miniKind || 'find') :
       ['modes', 'lesson'].includes(screen) ? screen + ':' + category.id :
       screen==='needs' ? 'needs:'+needsTab : screen) + (route.modal ? ':modal' : '');
@@ -28,7 +28,8 @@
         miniKind, memoryPhase, puzzleOrder, puzzleRows, puzzleCols, puzzleSelected, puzzleSolved, puzzleMoves} = route.game);
       // Keep the saved snapshot independent of mutable game arrays.
       options = [...options]; puzzleOrder = [...puzzleOrder]; screen = route.screen;
-      if (screen === 'puzzle') renderPuzzle();
+      if (screen === 'pairs') {stopPairTimer();pairEpoch++;pairDeck=[...route.pairs.deck];pairFlipped=route.pairs.flipped.length===2?[]:[...route.pairs.flipped];pairMatched=[...route.pairs.matched];pairSaved=route.pairs.saved;renderPairs();}
+      else if (screen === 'puzzle') renderPuzzle();
       else if (screen === 'complete' || screen === 'mini-complete') complete();
       else {
         renderQuestion();
