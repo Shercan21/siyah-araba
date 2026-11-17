@@ -18,6 +18,16 @@ Genişletilmiş içeriklerde hayvanlar 16, araçlar 11, meyve ve sebzeler 7 sevi
 
 Meyve kartlarında bütün meyve ve yanında kesilmiş parçası vardır. Sayma oyununda ise karışıklık olmaması için her birim tek bir bütün elma gösterir.
 
+## Ek oyunlar
+
+Bir konu seçince Öğren ve Bul seçeneklerinin altında Eşini bul, Hangisi kayboldu? ve Resim yapbozu görünür. Bu oyunlar da seçtiğiniz konu ve seviyenin nesnelerini kullanır.
+
+- Eşini bul: Büyük örnek resmin aynısını seçeneklerden seçin.
+- Hangisi kayboldu?: Resimlere istediğiniz kadar bakın; Hazırım düğmesine siz basınca bir resim saklanır. Eksik resmi seçeneklerden bulun. Süre sınırı yoktur.
+- Resim yapbozu: Önce bir parçaya, sonra diğerine dokunarak yer değiştirin. Seviye 1'de 2 parça, seviye 2'de 3 parça, sonraki seviyelerde 4 parça bulunur. Örnek resim gösterilir; sürükleme veya süre baskısı yoktur.
+
+Bu oyunların tamamlamaları ebeveyn alanında ayrı gösterilir ve Bul bölümündeki nesne tanıma cevaplarına eklenmez.
+
 Kayıtlar ilk seçim, tekrar ve ebeveynin işaretlediği yardımlı cevapları gösterir. "Devam" düğmesine basınca cevap kaydedilir. Öğrenme ekranındaki dokunuşlar test kaydına eklenmez. Bu kayıtlar gerçek yaşamda tanımayı veya konuşma gelişimini ölçmez. Kayıtlar ve ayarlar yalnızca o tarayıcıda tutulur.
 
 "Konuşalım" ekranındaki konuşmalar sesli örneklerdir. Konuşma zorunlu değildir, mikrofon kullanılmaz. Aile resimleri temsili çizimlerdir.
