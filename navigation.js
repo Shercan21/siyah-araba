@@ -8,9 +8,11 @@
   function capture() {
     const activity = ['game', 'puzzle', 'complete', 'mini-complete'].includes(screen);
     const route = {screen, category: category?.id, item: typeof taughtItem === 'undefined' ? null : taughtItem,
-      storyIndex, storyPage, dialogueIndex, modal: dialog.open};
+      storyIndex, storyPage, dialogueIndex, modal: dialog.open,
+      needsTab, sentenceItem, sentencePartsDone};
     route.key = (activity ? 'activity:' + category.id + ':' + (miniKind || 'find') :
-      ['modes', 'lesson'].includes(screen) ? screen + ':' + category.id : screen) + (route.modal ? ':modal' : '');
+      ['modes', 'lesson'].includes(screen) ? screen + ':' + category.id :
+      screen==='needs' ? 'needs:'+needsTab : screen) + (route.modal ? ':modal' : '');
     if (activity) route.game = {round, target, options: [...options], locked, lastTarget, sessionSaved,
       questionWrong, questionHelped, miniKind, memoryPhase, puzzleOrder: [...puzzleOrder],
       puzzleRows, puzzleCols, puzzleSelected, puzzleSolved, puzzleMoves};
@@ -42,6 +44,10 @@
     else if (route.screen === 'story') {storyIndex = route.storyIndex; storyPage = route.storyPage; readStory();}
     else if (route.screen === 'talk') talkHome();
     else if (route.screen === 'dialogue') dialogue(route.dialogueIndex);
+    else if (route.screen === 'needs') needsHome(route.needsTab);
+    else if (route.screen === 'sentences') {
+      sentenceItem=route.sentenceItem; sentencePartsDone=route.sentencePartsDone; sentenceHome(false);
+    }
     else if (route.screen === 'profile') profileEntry();
     else home();
     if (route.modal) document.querySelector('#parent').onclick();

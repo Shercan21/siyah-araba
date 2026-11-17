@@ -53,3 +53,16 @@ Yayın tamamlanınca telefonu internete bağlayıp oyunu kapatıp yeniden açın
 GitHub Pages'teki oyun herkese açıktır ve e-posta daveti istemez. Eski chatgpt.site adresi ayrı bir yayındır; GitHub değişiklikleri o adrese gönderilmez.
 
 İlk açılış için internet gerekir. Çevrimdışı ses telefonda kurulu Türkçe ve İngilizce ses paketlerine bağlıdır.
+
+## Temelden ayrıntıya içerik ve iletişim kartları
+Tüm konular yeniden sıralandı: temel nesneler önce, ayrıntılar ileri seviyelerde. Seviyeler birikerek ilerler ve ebeveyn seçer. Oyun kayıtları korunur; sıralama değiştiği için seviye seçimlerini gözden geçirin.
+
+Vücut: 1) El, ayak, göz, burun. 2) Kulak, ağız, baş, saç. 3) Kol, bacak, karın, sırt. 4) Parmak, diz, boyun, diş. 5) Kaş, kirpik, dil, dirsek. 6) Alın, yanak, çene, tırnak.
+
+Vücut, eşya, giysi, doğa, aile/insanlar, komutlar, renkler, şekiller ve sayılara toplam 106 yeni kelime eklendi. Sayılar 20'ye kadar gider. Önceki 112 hayvan/araç/meyve/sebze eklemesi de oyunlarda durur.
+
+İsteklerim: Ana sayfadaki büyük düğmeden veya üst menüden açılır. Acıktım, su istiyorum, çişim geldi, kakam geldi, karnım ağrıyor, yardım et, mola istiyorum, istemiyorum kartları tek dokunuşla konuşur. Diğer istekler, ağrı bölgesi ve duygular için ayrı sekmeler vardır. İhtiyaç kartları seviye veya puanla kilitlenmez; tercihler ve ağrı seçimleri kaydedilmez, karşı tarafa gönderilmez.
+
+Kelime → cümle: Ebeveyn alanında ayrı 5 seviye seçilir: tek kelime, iki kelime, kısa cümle, ayrıntı, günlük rica. Kartlara sırayla dokunulur; sesli tekrar veya mikrofon gerekmez. Bu etkinlikte doğru/yanlış ve puan yoktur. Örneği dinle ve Cümlemi söyle düğmeleri bulunur.
+
+Telefonun geri tuşu bir önceki ekrana döner: Sebzeler → Öğren → geri: Sebzeler → geri: Ana sayfa. Resim değiştirmek veya yeni soruya geçmek fazladan geri adımı eklemez.
